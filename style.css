@@ -52,7 +52,7 @@ header {
     margin-right: auto;
 
     position: relative;
-    bottom: -100px;
+    bottom: -70px;
 }
 
 h1 {
@@ -71,3 +71,7 @@ h1 {
 .row img {
     max-width: 70%;
 }
+
+/* FINE HEADER */
+
+/* INIZIO CONTAINER SMALL 1 */
