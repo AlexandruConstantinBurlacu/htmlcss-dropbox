@@ -106,9 +106,7 @@ h2 {
     padding-left: 30px;
     padding-right: 30px;
 
-    /* test */
     border: 1px solid gray;
-    min-height: 50px;
 }
 
 .center {
@@ -144,6 +142,14 @@ h2 {
     padding-bottom: 55px;
 }
 
+.info-diverse {
+    padding-bottom: 35px;
+}
+
+.trial {
+    padding: 10px;
+}
+
 .buy-now {
     padding-top: 35px;
     padding-bottom: 40px;
@@ -160,4 +166,16 @@ h2 {
 
 .padding-last {
     padding-top: 25px;
+}
+
+.bottom {
+    padding-bottom: 55px;
+}
+
+.team {
+    padding-top: 55px;
+}
+
+.border {
+    border: 1px solid gray;
 }
