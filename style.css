@@ -37,3 +37,17 @@ body {
     background-color: rgb(0, 97, 255);
     color: white;
 }
+
+/* FINE NAV-BAR */
+
+/* INIZIO HEADER */
+
+header {
+    background-color: rgb(180, 203, 231);
+}
+
+.container-big {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
