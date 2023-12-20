@@ -103,8 +103,61 @@ h2 {
 
 .plan {
     width: calc(100% / 3 - 50px);
+    padding-left: 30px;
+    padding-right: 30px;
 
     /* test */
-    border: 1px solid red;
+    border: 1px solid gray;
     min-height: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.center .fa-user {
+    align-self: center;
+}
+
+.plan h3 {
+    padding-top: 40px;
+}
+
+.bold {
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.gray {
+    color: gray;
+    padding-bottom: 60px;
+}
+
+.info-plan {
+    padding-bottom: 25px;
+}
+
+.info-last {
+    padding-bottom: 55px;
+}
+
+.buy-now {
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.plan h4 {
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+.fa-check {
+    color: rgb(0, 97, 255);
+}
+
+.padding-last {
+    padding-top: 25px;
 }

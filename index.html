@@ -5,10 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>htmlcss-dropbox</title>
         <link rel="stylesheet" href="style.css">
-        <!-- font -->
+        <!-- link font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+        <!-- link icone -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <nav class="nav-bar">
@@ -69,29 +72,39 @@
 
             <div class="row-three">
                 <div class="plan">
-                    <div>
-                        user Singolo
+                    <div class="center">
+                        <i class="fa-solid fa-user"></i> 
+                        Singolo
                     </div>
                     <hr>
                     <h3>Professional</h3>
-                    <div>€ 12.00</div>
-                    <div>/mese</div>
-                    <div>user 1 utente</div>
-                    <div>cartella 5 TB di spazio di archiviazione sicuro</div>
-                    <div>
-                        collegamento Funzioni di produttività premium 
+                    <div class="bold">€ 12.00</div>
+                    <div class="gray">/mese</div>
+                    <div class="info-plan">
+                        <i class="fa-solid fa-user"></i> 
+                        1 utente
+                    </div>
+                    <div class="info-plan">
+                        <i class="fa-solid fa-folder"></i> 
+                        5 TB di spazio di archiviazione sicuro
+                    </div>
+                    <div class="info-last">
+                        <i class="fa-solid fa-share-nodes"></i> 
+                        Funzioni di produttività premium 
                         e condivisione file semplice e sicura
                     </div>
-                    <div class="btn-blue">Prova gratis per 30 giorni</div>
-                    <div>oppure <span>acquista ora</span></div>
+                    <div class="btn-blue trial">Prova gratis per 30 giorni</div>
+                    <div class="buy-now">oppure <a href="#">acquista ora</a></div>
                     <hr>
-                    <div>Punti salienti del piano</div>
+                    <h4>Punti salienti del piano</h4>
                     <div>
-                        checkmark Invia file fino a 100 GB con
+                        <i class="fa-solid fa-check"></i> 
+                        Invia file fino a 100 GB con
                         Dropbox Transfert
                     </div>
-                    <div>
-                        checkmark Cartelle offline su
+                    <div class="padding-last">
+                        <i class="fa-solid fa-check"></i> 
+                        Cartelle offline su
                         dispositivi mobili
                     </div>
                 </div>
