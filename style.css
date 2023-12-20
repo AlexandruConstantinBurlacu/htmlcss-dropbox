@@ -15,15 +15,10 @@ body {
     justify-content: space-between;
 
     background-color: white;
-    /* test */
-    border: 1px solid red;
 }
 
 .nav-left , .nav-right {
     display: flex;
-
-    /* test */
-    border: 1px solid red;
 }
 
 .nav-left > * , .nav-right > * {
@@ -80,9 +75,6 @@ h1 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-
-    /* test */
-    border: 1px solid red;
 }
 
 h2 {
@@ -179,3 +171,18 @@ h2 {
 .border {
     border: 1px solid gray;
 }
+
+.border p {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
