@@ -186,3 +186,21 @@ h2 {
     padding-right: 30px;
 }
 
+/* INIZIO PARTE PARTNER */
+
+.partner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 155px;
+    margin-bottom: 175px;
+
+    /* test */
+    border: 1px solid red;
+}
+
+.partner img {
+    width: 100px;
+}
+
