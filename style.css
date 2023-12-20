@@ -17,14 +17,14 @@ body {
     border: 1px solid red;
 }
 
-.nav-left {
+.nav-left , .nav-right {
     display: flex;
 
     /* test */
     border: 1px solid red;
 }
 
-.nav-left > * {
+.nav-left > * , .nav-right > * {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
