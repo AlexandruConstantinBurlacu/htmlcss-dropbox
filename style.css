@@ -50,4 +50,24 @@ header {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+
+    position: relative;
+    bottom: -100px;
+}
+
+h1 {
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+
+.text {
+    max-width: 370px;
+}
+
+.row {
+    display: flex;
+}
+
+.row img {
+    max-width: 70%;
 }
