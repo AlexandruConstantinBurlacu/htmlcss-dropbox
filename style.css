@@ -239,7 +239,7 @@ h1 {
 }
 
 .passa {
-    width: calc(100% / 3 - 50px / 3 * 2);
+    width: calc(100% / 3 - 50px);
 }
 
 .passa img {
@@ -262,4 +262,19 @@ h1 {
 .clienti h2 {
     margin-bottom: 80px;
     font-size: 30px;
+}
+
+/* INIZIO SEZIONE SQUARES */
+
+.squares {
+    display: flex;
+}
+
+.square-left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square-left img {
+    width: 50%;
 }
