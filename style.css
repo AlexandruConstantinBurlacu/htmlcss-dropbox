@@ -235,3 +235,21 @@ h1 {
     border: 1px solid red;
 }
 
+.colonne {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.passa {
+    width: calc(100% / 3 - 50px / 3 * 2);
+}
+
+.passa img {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.passa p {
+    margin-top: 40px;
+}
