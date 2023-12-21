@@ -77,7 +77,7 @@ h1 {
     margin-right: auto;
 }
 
-h2 {
+.business-plan {
     font-size: 30px;
 
     padding-top: 170px;
@@ -147,6 +147,10 @@ h2 {
     padding-bottom: 40px;
 }
 
+.hr-small {
+    width: 25%;
+}
+
 .plan h4 {
     padding-top: 55px;
     padding-bottom: 40px;
@@ -198,9 +202,6 @@ h2 {
 
     display: flex;
     justify-content: space-between;
-
-    /* test */
-    border: 1px solid red;
 }
 
 .partner img {
@@ -223,5 +224,14 @@ h2 {
 .partner .partner-text span {
     border: 1px solid black;
     padding: 10px;
+}
+
+/* INIZIO PARTE OPERATION */
+
+.operation {
+    max-width: 1000px;
+
+    /* test */
+    border: 1px solid red;
 }
 
