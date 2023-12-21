@@ -230,9 +230,6 @@ h1 {
 
 .operation {
     max-width: 1000px;
-
-    /* test */
-    border: 1px solid red;
 }
 
 .colonne {
@@ -252,4 +249,17 @@ h1 {
 
 .passa p {
     margin-top: 40px;
+}
+
+/* INIZIO SEZIONE CLIENTI */
+
+.clienti {
+    max-width: 1000px;
+    margin-top: 220px;
+    margin-bottom: 150px;
+}
+
+.clienti h2 {
+    margin-bottom: 80px;
+    font-size: 30px;
 }
