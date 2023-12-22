@@ -77,6 +77,11 @@ h1 {
     max-width: 70%;
 }
 
+.row img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
 /* FINE HEADER */
 
 /* INIZIO CONTAINER SMALL 1 */
@@ -109,6 +114,11 @@ h1 {
     padding-right: 30px;
 
     border: 1px solid gray;
+}
+
+.plan .btn-blue:hover {
+    transform: scale(0.9);
+    transition: 1s;
 }
 
 .center {
@@ -150,6 +160,11 @@ h1 {
 
 .trial {
     padding: 10px;
+}
+
+.trial:hover {
+    transform: scale(0.9);
+    transition: 1s;
 }
 
 .buy-now {
@@ -234,6 +249,14 @@ h1 {
 .partner .partner-text span {
     border: 1px solid black;
     padding: 10px;
+}
+
+.partner-text span:hover {
+    background-color: rgb(0, 97, 255);
+    border: none;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 /* INIZIO PARTE OPERATION */
@@ -370,6 +393,14 @@ h1 {
     background-color: white;
 }
 
+.box span:hover {
+    background-color: rgb(0, 97, 255);
+    border: none;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
 /* INIZIO CONTAINER SMALL DUE */
 
 .container-small-due {
@@ -393,6 +424,11 @@ h1 {
 .container-small-due p {
     font-weight: bold;
     margin-bottom: 45px;
+}
+
+.container-small-due p:hover {
+    transform: scale(0.9);
+    transition: 1s;
 }
 
 /* INIZIO FOOTER */
@@ -429,6 +465,11 @@ h1 {
 .section ul li {
     list-style-type: none;
     margin-bottom: 25px;
+}
+
+.section ul li:hover {
+    color: red;
+    transition: 0.5s;
 }
 
 .centro {
